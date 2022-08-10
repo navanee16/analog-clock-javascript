@@ -1,0 +1,180 @@
+
+
+/* 
+.circle{
+    width: 350px;
+    height: 350px;
+    border: 4px solid;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.hour{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.hour1{
+    position: absolute;
+    top: 25px;
+    left: 255px;
+}
+
+.hour2{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+}
+.hour3{
+    position: absolute;
+    top: 150px;
+    left: 340px;
+}
+.hour4{
+    position: absolute;
+    top: 230px;
+    left: 325px;
+}
+.hour5{
+    position: absolute;
+    top: 300px;
+    left: 270px;
+}
+.hour6{
+    position: fixed;
+    bottom: 50px;
+    right: 450px;
+}
+.hour7{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+.hour8{
+    position: absolute;
+    top: 240px;
+    left: 20px;
+}
+.hour9{
+    position: absolute;
+    top: 155px;
+    left: 5px;
+}
+.hour10{
+    position: absolute;
+    top: 90px;
+    left: 15px;
+}
+.hour11{
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+.hour12{
+    position: fixed;
+    top: 10px;
+    left: 430px
+}
+
+
+.hourhand{
+    height: 100px;
+    width: 6px;
+    position: absolute;
+    left: 170px;
+    top: 170px;
+    background-color: #000;
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+.minhand{
+    position: absolute;
+    left: 170px;
+    top: 170px;
+    height: 150px;
+    width: 3px;
+    transform: rotate(50deg);
+    transform-origin: left;
+    background-color: #000;
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.clock{
+    justify-content: center;
+    align-items: center;
+}
+.clockbox{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.lines{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.longhand{
+    width: 8px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.long{
+    width: 8px;
+    height: 15px;
+    background-color: black;
+}
+.shorthand{
+    width: 4px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.short{
+    width: 4px;
+    height: 8px;
+    background-color: black;
+}
+
+
+.hourhand{
+    position: absolute;
+    
+    top: 150px;
+    left: 150px;
+    width: 6px;
+    height: 80px;
+    border: 2px solid black;
+    
+    /* transform: rotate(30deg);sssss */
+}
+.minhand{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 2px;
+    height: 120px;
+    border: 2px solid black;
+    
+    /* transform: rotate(80deg); */
+}
+
+
